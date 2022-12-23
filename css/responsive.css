@@ -1,0 +1,125 @@
+@media(max-width:575px){
+ .navbar-brand img{
+   width: 70%;
+ }
+ .menu-bg ul{
+  text-align: center;
+  margin-top: 7%;
+ }
+ .menu-bg ul li{
+  background-color: greenyellow;
+  padding: 8px 0;
+ }
+ #banner{
+   padding-top: 75px;
+   padding-bottom: 55px;
+ }
+ /* .w-100 {
+  width: 71%!important;
+} */
+.about_img img{
+  width: 68%;
+}
+.about_overlay {
+  width: 59%;
+  left: 72%;
+}
+.about_overlay p {
+  margin-top: 13px;
+  padding: 0 24px;
+}
+.about_overlay span {
+  opacity: 0;
+}
+.counter {
+  font-size: 38px;
+}
+.w-100 {
+  width: 100%!important;
+}
+.team_overlay ul li a i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.team_head img {
+  width: 27%;
+  margin-bottom: 11px;
+}
+.slide_img img {
+  margin-left: 28px;
+}
+.next {
+  margin-left: -20px;
+}
+.prev {
+  margin-right: 7px;
+}
+.foot_main p {
+  margin-left: -46px;
+  margin-bottom: -4px;
+  margin-top: -9px;
+}
+.foot_logo img {
+  width: 218px;
+}
+.foot_item h6 {
+  text-transform: uppercase;
+  color: #dddddd;
+  margin-left: -24px;
+}
+.samsung {
+  margin-top: 19px;
+  margin-left: -26px;
+}
+.foot_main1 {
+  margin-top: 25px;
+  margin-left: -23px;
+}
+.vivo{
+  margin-top: 20px;
+}
+.foot_main2 {
+  margin-left: -27px;
+}
+.foot_main2 button {
+  padding: 5px 10px;
+  margin-left: -75px;
+}
+.foot_item1 h6 {
+  margin-left: -25px;
+}
+.icon {
+  margin-left: -40px;
+}
+.icon i {
+  margin: 0 3px;
+}
+.copy_text {
+  width: 322px;
+  font-size: 12px;
+}
+.text-end {
+  margin-top: -33px;
+}
+}
+
+@media(min-width:576px) and (max-width:767px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+  
+}
+
+@media(min-width:992px) and (max-width:1199px){
+  
+}
+
+@media(min-width:1200px) and (max-width:1399px){
+  
+}
+
+@media(min-width:1400px){
+  
+}

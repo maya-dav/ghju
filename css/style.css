@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+  vertical-align: middle;
+}
+span{
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+/* menu part start */
+
+.menu-bg{
+  background-color: yellow;
+  padding: 20px 0;
+}
+
+.menu-bg i{
+  color: #222 !important;
+  font-size: 19px;
+  transition: 0.5s;
+}
+.menu-bg i:hover{
+  color: red !important;
+}
+.menu-bg a{
+  color: #222 !important;
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  transition: 0.5s;
+}
+.menu-bg a:hover{
+  color: red !important;
+}
+.menu-bg ul li a {
+  color: #222 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  position: relative;
+  transition: 0.5s;
+}
+.menu-bg ul li a:hover{
+  color: red !important;
+}
+.menu-bg ul li a::after {
+  position: absolute;
+  content: '';
+  left: 7px;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  opacity: 0;
+  transition: 0.5s;
+}
+.menu-bg ul li a:hover::after{
+  opacity: 1;
+  width: calc(100% - 15px);
+}
+/* menu part end */
+
+/* banner part start */
+#banner{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.545), rgba(0, 0, 0, 0.545)), url(../image/banner.jpg) no-repeat center / cover;
+  padding: 75px 0;
+}
+.banner_text h4{
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+.banner_text i {
+  font-size: 10px;
+}
+.banner_text p {
+  font-size: 17px;
+}
+.banner_text span{
+  color: red !important;
+  font-size: 17px;
+}
+/* banner part end */
+
+/* about part start */
+
+#about{
+  padding: 80px 0;
+}
+.about_img{
+  position: relative;
+}
+.about_overlay {
+  position: absolute;
+  content: '';
+  height: 80%;
+  width: 85%;
+  top: 50%;
+  left: 133%;
+  background-color: #000000d4;
+  transform: translate(-50%, -50%);
+}
+.about_overlay p {
+  color: #b5b5b5 !important;
+  margin-top: 28px;
+  justify-content: center;
+  padding: 0 32px;
+}
+.about_overlay span{
+  color: #b5b5b5 !important;
+  margin-top: 16px;
+  justify-content: center;
+  padding: 0 32px;
+}
+/* about part end */
+
+
+/* counter part start */
+   
+
+#counter{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0.826)), url(../image/counter.jpg) no-repeat center / cover;
+  padding: 30px 0;
+}
+
+.counter{
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+/* counter part end */
+
+/* team part start */
+
+#team{
+  padding-top: 75px;
+}
+.team_head img {
+  width: 13%;
+  margin-bottom: 11px;
+}
+.team_img img{
+  width: 100%;
+}
+.mimi {
+  margin-top: 24px;
+}
+.team_img{
+  position: relative;
+}
+.team_overlay{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.636);
+  transition: 0.5s;
+  opacity: 0;
+}
+.team_item:hover .team_overlay{
+  opacity: 1;
+  width: 30%;
+}
+.team_overlay ul{
+  position: absolute;
+  top: 50%;
+  right: 26px;
+  transform: translateY(-50%);
+}
+.team_overlay ul li a i{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.team_overlay ul li a i:hover{
+  background-color: red;
+  border: 2px solid transparent;
+}
+.team_item {
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-radius: 1%;
+}
+.team_text{
+  padding: 10px 0;
+}
+/* team part end */
+
+
+/* slider part start */
+#slide{
+  padding: 60px 0;
+
+}
+.container{
+  position: relative;
+}
+.next {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-left: -45px;
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-right: -27px;
+  font-size: 30px;
+}
+.container i{
+  line-height: 40px;
+}
+.next:hover{
+  color: red;
+}
+.prev:hover{
+  color: red;
+}
+.slide_img img{
+  width: 77%;
+}
+.slide5{
+  margin-left: 23px;
+}
+/* slider part end */
+
+/* footer part start */
+
+#footer{
+  background-color: #353535;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+.foot_item {
+  margin-top: 13px;
+}
+.foot_item h6{
+  text-transform: uppercase;
+  color: #dddddd;
+}
+.foot_main {
+  color: #dddddd;
+  margin-top: 33px;
+  transition: 0.5s;
+}
+.foot_main i:hover{
+  color: red;
+}
+.foot_main1 {
+  color: #dddddd;
+  margin-top: 38px;
+}
+.foot_3nd {
+  margin-left: 50px;
+}
+.foot_main2{
+  margin-top: 35px;
+}
+.foot_main2 input{
+  background-color: transparent !important;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+.foot_main2 button {
+  padding: 4px 10px;
+  background-color: red;
+  color: #fff;
+  margin-left: -10px;
+  border-color: transparent;
+  transition: 0.5s;
+}
+.foot_main2 button:hover{
+  background-color: greenyellow;
+  color: #222;
+}
+.foot_item1{
+  margin-top: 40px;
+}
+.foot_item1 h6{
+  text-transform: uppercase;
+  color: #dddddd;  
+}
+.icon{
+  margin-top: 30px;
+}
+.icon i{
+  margin: 0 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #222;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.5s;
+}
+.icon i:hover{
+  background-color: red;
+  color: #fff;
+  transform: translateY(-10px);
+}
+/* footer part end */
+
+/*  */
+#copy{
+  background-color: #555555;
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+.copy_text{
+  color: #dddddd;
+}
+.copy_text span{
+  color: red;
+}
+/*  */
